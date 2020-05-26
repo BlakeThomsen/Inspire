@@ -1,0 +1,22 @@
+#todo-error {
+  color: red;
+  font-size: 2em;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex-grow: 1;
+}
+
+.action {
+  cursor: pointer;
+}
+
+.dropshadow {
+  text-shadow: 2px 2px black;
+}
